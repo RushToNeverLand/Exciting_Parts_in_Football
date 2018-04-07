@@ -16,4 +16,5 @@ This repositpry in used to extract features of exciting football game part.
 5. IMPORTANT NOTE: when you load the sports1m_finetuning_ucf101.model,you should use the tranpose operation like:pool5 = tf.transpose(pool5, perm=[0,1,4,2,3]),or in Random_clip_valid.py looks like:["transpose", [0, 1, 4, 2, 3]], but if you load conv3d_deepnetA_sport1m_iter_1900000_TF.model or c3d_ucf101_finetune_whole_iter_20000_TF.model,you don't need tranpose operation,just comment that line code.
 
 # Add the python files to detect the scoreboard
+When goals happened, the scoreboard will change in a few seconds. So it's a good feature to record when to goal. And the accuary is high and the model is robust enough.
 So far, we have two models to get the exciting parts of football game. We use two models to raise accuracy.
