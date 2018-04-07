@@ -17,4 +17,5 @@ This repositpry in used to extract features of exciting football game part.
 
 # Add the python files to detect the scoreboard
 When goals happened, the scoreboard will change in a few seconds. So it's a good feature to record when to goal. And the accuary is high and the model is robust enough.
+
 So far, we have two models to get the exciting parts of football game. We use two models to raise accuracy.
